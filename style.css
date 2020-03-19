@@ -5,6 +5,8 @@ body,html {
 	font-family: 'Helvetica', sans-serif;
     background-image: url(giphystart.gif);
     background-size: 100%;
+    size: 100%;
+    background-repeat: no-repeat;
 }
 
 h1 {
