@@ -5,8 +5,9 @@ body,html {
 	font-family: 'Helvetica', sans-serif;
     background-image: url(giphystart.gif);
     background-size: 100%;
-    size: 100%;
     background-repeat: no-repeat;
+  
+    
 }
 
 h1 {
@@ -45,10 +46,10 @@ h1 {
 .loginbox {
 	width: 600px;
 	height: 500px;
-    background-color:#8a0772;
+    background-color:#3b3bff;
     opacity: 0.95;
     border-radius: 15px;
-    border: 5px  #f877f1 solid;
+    border: 5px  #0000ee solid;
 	overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
