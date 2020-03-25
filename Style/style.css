@@ -3,7 +3,7 @@ body,html {
 	margin: 0;
 	padding: 0;
 	font-family: 'Helvetica', sans-serif;
-    background-image: url(/Images/giphystart.gif);
+    background-image: url(/Images/681583.gif);
     background-size: 100%;
     background-repeat: no-repeat;
   
@@ -15,8 +15,8 @@ h1 {
 	margin: 10px 0 0 0;
 	font-weight: bolder;
 	text-transform: uppercase;
-    color: #eeeeee;
-    font-smooth: always;
+    color: white;
+    
 }
 
 
@@ -47,14 +47,15 @@ h1 {
 .loginbox {
 	width: 600px;
 	height: 500px;
-    background-color:darkgray;
-    opacity: 0.95;
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 8%, rgba(253,77,255,1) 50%, rgba(0,111,218,0.7231267507002801) 76%);
+    opacity: 1;
     border-radius: 30px;
-    border: 5px  #0000ee solid;
+    border: 10px white solid;
 	overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
-    animation: float 5s ease-in-out infinite;
+    animation: float 2s ease-in-out infinite;
     text-align: center;
 }
 
@@ -141,6 +142,6 @@ margin-top: 100px;
 
 
 input {
-    background-color: #779ecb;
+    background-color: white;
     cursor: pointer;
 }
