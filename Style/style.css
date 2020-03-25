@@ -1,0 +1,146 @@
+body,html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', sans-serif;
+    background-image: url(/Images/giphystart.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  
+    
+}
+
+h1 {
+	font-size: 24px;
+	margin: 10px 0 0 0;
+	font-weight: bolder;
+	text-transform: uppercase;
+    color: #eeeeee;
+    font-smooth: always;
+}
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.loginbox {
+	width: 600px;
+	height: 500px;
+    background-color:darkgray;
+    opacity: 0.95;
+    border-radius: 30px;
+    border: 5px  #0000ee solid;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+    text-align: center;
+}
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.loginvalue {
+    width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+    margin-top: 10px;
+    
+
+}
+
+.sumbitvalue , input {
+    margin-bottom: 40px;
+    height: 25px;
+    width: 500px;
+    border-radius: 5px;
+    
+
+}
+
+input#fit {
+    margin-top: 5px;
+    height: 25px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: orangered;
+    
+    opacity: 0.90;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width:15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.fa-snapchat {
+    background: #FFDF00;
+    color: white;
+}
+
+.fa-instagram {
+    background: grey;
+    color: white;
+}
+  
+.infoincon {
+display:  flex;
+margin-top: 100px;
+}
+
+
+input {
+    background-color: #779ecb;
+    cursor: pointer;
+}
