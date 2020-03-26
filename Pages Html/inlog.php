@@ -1,15 +1,10 @@
 <?php
 session_start();
-$_SESSION['gebruiker'];
-
 $servername = "mysql:host=localhost;dbname=ratingprogram";
 $username = "root";
 $password = "";
 $pdo = new PDO($servername, $username, $password);
-
-
 $gebruikerInfo = array();
-
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +13,8 @@ $gebruikerInfo = array();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/c0ss/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
@@ -50,7 +45,6 @@ $gebruikerInfo = array();
                     }
                 }
             //Hier wordt daadwerkelijk ingelogd
-
             ?>
         </form>
         <a href=""></a>
@@ -60,18 +54,7 @@ $gebruikerInfo = array();
                <a href=""></a>
             </div>
         <input type="submit" value="Take Me To the Register Page">
-
-        <div class="infoicons">
-            <h1> Other Login Methods</h1>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-snapchat"></a>
-            <a href="#" class="fa fa-instagram"></a>
-        </div>
     </div>
-          
-     
-        
     </div>
 </div>
 </body>
