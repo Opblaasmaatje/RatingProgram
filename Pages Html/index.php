@@ -4,6 +4,10 @@ $servername = "mysql:host=localhost;dbname=ratingprogram";
 $username = "root";
 $password = "";
 $pdo = new PDO($servername, $username, $password);
+
+if(!isset($_SESSION['gebruiker'])){
+    header ("location: inlog.php");
+}
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +33,7 @@ $pdo = new PDO($servername, $username, $password);
             echo $userInfo["Verified"];
         }
         //hier wordt het neer gezet
-        //dit is gebruikersinfo, groetjes aan je voetjes joohoo
+        //dit is gebruikersinfo
         ?>
 
     <?php

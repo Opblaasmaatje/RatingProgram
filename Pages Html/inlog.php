@@ -24,7 +24,7 @@ $gebruikerInfo = array();
         </div>
         <form method="post">
             <input type="text" placeholder="Email" name="email" require>
-            <input type="password" placeholder="password" name="wachtwoord" require>
+            <input type="password" placeholder="Password" name="wachtwoord" require>
             <button type="sumbit">Log in</button>
             <?php
                 if(isset($_POST["email"]) || isset($_POST["wachtwoord"])) {
@@ -47,15 +47,16 @@ $gebruikerInfo = array();
             //Hier wordt daadwerkelijk ingelogd
             ?>
         </form>
-        <a href=""></a>
-        
+            <form method="post">
             <div class="loginvalue">
-               <h1> Register</h1>
-               <a href=""></a>
+            <h1> Registreer</h1>
+            <input type="text" placeholder="Email" name="emailCreate" require>
+            <input type="password" placeholder="Password" name="passwordCreate" require>
+            <button type="sumbit">Maak account</button>
+            
             </div>
-        <input type="submit" value="Take Me To the Register Page">
+            </form>
     </div>
     </div>
-</div>
 </body>
 </html>
